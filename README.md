@@ -1,54 +1,46 @@
-# React + TypeScript + Vite
+# 💼 Manas Chandra - Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal portfolio website built with **React**, **Vite**, **Tailwind CSS**, and hosted on **Vercel**. It showcases my experience, projects, education, and contact details in a clean, responsive and interactive way.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔥 Features
 
-## Expanding the ESLint configuration
+- Light/Dark Mode toggle 🌙☀️
+- Scroll-triggered animations ✨
+- Mobile responsive design 📱
+- Resume download 📄
+- Hosted live on [Vercel](https://vercel.com)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🛠 Tech Stack
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- ⚛️ React (Vite)
+- 💨 Tailwind CSS
+- 🌓 Dark mode (class-based)
+- 🎞️ Framer Motion (for transitions)
+- ☁️ Hosted on Vercel
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+## 🚀 Live Demo
+
+👉 [View Live Site](https://my-portfolio-git-main-bobbydra13s-projects.vercel.app/)
+
+---
+
+## 🧑‍💻 How to Run Locally
+
+```bash
+# Clone the repo
+git clone https://github.com/BobbyDra13/my_portfolio.git
+
+cd my_portfolio
+
+# Install dependencies
+npm install
+
+# Run the dev server
+npm run dev
 ```
