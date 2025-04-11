@@ -1,6 +1,4 @@
 import { Mail, Phone, Github, Linkedin } from "lucide-react";
-import { motion } from "framer-motion";
-import { fadeInUp } from "../animations/fadeInUp";
 import { CardBody, CardContainer, CardItem } from "./ui/3d-card";
 
 const Contact = () => (
